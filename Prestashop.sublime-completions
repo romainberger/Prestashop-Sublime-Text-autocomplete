@@ -17,6 +17,15 @@
         { "trigger": "Configuration::get", "contents": "get(${1:key}, ${2:id_lang})"},
         { "trigger": "Configuration::updateValue", "contents": "updateValue(${1:key}, ${2:values})"},
 
-        { "trigger": "Tools::getValue", "contents": "getValue(${1:key}, ${2:default_value})"}
+        { "trigger": "Tools::getValue", "contents": "getValue(${1:key}, ${2:default_value})"},
+        { "trigger": "addCSS", "contents": "addCSS(${1:css_uri}, ${2:css_media_type})"},
+        { "trigger": "addJS", "contents": "addJS(${1:js_uri})"},
+        { "trigger": "addJqueryPlugin", "contents": "addJqueryPlugin(${1:name}, ${2:folder})"},
+
+        { "trigger": "Db::getInstance", "contents": "Db::getInstance()"},
+
+        { "trigger": "Language::getLanguages", "contents": "Language::getLanguages(${1:active})"},
+
+        { "trigger": "registerHook", "contents": "registerHook(${1:hook_name})"}
     ]
 }
