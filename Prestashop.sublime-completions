@@ -1,0 +1,22 @@
+{
+    "scope": "source.php - variable.other.php",
+
+    "completions":
+    [
+        "php",
+
+        { "trigger": "new Category", "contents": "new Category(${1:id_category}, ${2:id_lang}, ${3:id_shop})"},
+        { "trigger": "Category::getCategories", "contents": "getCategories(${1:id_lang}, ${2:active}, ${3:order}, ${4:sql_filter}, ${5:sql_sort}, ${6:sql_limit})"},
+        { "trigger": "getProducts", "contents": "getProducts(${1:id_lang}, ${2:p}, ${3:n}, ${4:order_by}, ${5:order_way}, ${6:get_total}, ${7:active}, ${8:random})"},
+
+
+        { "trigger": "new Product", "contents": "new Product(${1:id_product}, ${2:full}, ${3:id_lang}, ${4:id_shop}, ${5:context})"},
+        { "trigger": "Product::getProducts", "contents": "Product::getProducts(${1:id_lang}, ${2:start}, ${3:limit}, ${4:order_by}, ${5:order_way}, ${6:id_category}, ${7:only_active}, ${8:context})"},
+        { "trigger": "getPrice", "contents": "getPrice(${1:tax}, ${2:id_product_attribute}, ${3:decimals})"},
+
+        { "trigger": "Configuration::get", "contents": "get(${1:key}, ${2:id_lang})"},
+        { "trigger": "Configuration::updateValue", "contents": "updateValue(${1:key}, ${2:values})"},
+
+        { "trigger": "Tools::getValue", "contents": "getValue(${1:key}, ${2:default_value})"}
+    ]
+}
