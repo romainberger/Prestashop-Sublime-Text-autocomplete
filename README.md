@@ -2,7 +2,7 @@
 
 Snippets for the most used Prestashop classes and methods. The "most used" is based on what I use the most.
 
-Some methods does not output every optionnal arguments. One again, it's based on my experience where I rarely need them.
+Some methods does not output every optionnal arguments. Once again, it's based on my experience where I rarely need them.
 
 ## Installation
 
